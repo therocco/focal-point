@@ -1,8 +1,14 @@
 /**
- * <marked>
- * @author: Rocco Augusto
+ * <focal-point>
+ * @file Custom Elements v1 to mimick highlighter text 
+ * @author: Rocco Augusto <rocco@nerdofsteel.com>
 **/
+
 class FocalPoint extends HTMLElement {
+    /**
+     * Create <focal-point>.
+     * @property {string} color - Valid CSS color code/hex/rgb/rgba/hsl/hsla value. Predefined values to mimick generic highlighters are `yellow`, `green`, `blue`, `orange`, `pink`, and `purple`.
+    */
     constructor() {
         super();
         this._color = 'yellow';
@@ -16,18 +22,31 @@ class FocalPoint extends HTMLElement {
         };
     }
 
+    /**
+     * Observe attributes
+    */
     static get observedAttributes() {
         return ['color'];
     }
-
+    
+    /**
+     * Get the color value.
+    */
     get color() {
         return this._color;
     }
 
+    /**
+     * Set the color value.
+     * @return {string} color value.
+    */
     set color(color) {
         this.setAttrbute('color', color);
     }
-
+    
+    /**
+     * Event that fires when attributes change
+    */
     attributeChangedCallback(name, oldValue, newValue) {
         if(!newValue) newValue = 'yellow';
         if(oldValue !== newValue) {
@@ -36,11 +55,17 @@ class FocalPoint extends HTMLElement {
         }
     }
 
+    /**
+     * Custom element loaded
+    */
     connectedCallback() {
         this.applyFocalPoint();
     }
 
-     applyFocalPoint() {
+    /**
+     * Render custom element
+    **/
+    applyFocalPoint() {
         this.style.display = 'inline-block';
         this.style.backgroundColor = this._palette.hasOwnProperty(this._color) ? 
             this._palette[this._color] :
