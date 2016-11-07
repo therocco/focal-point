@@ -48,13 +48,6 @@ The `<focal-point>` mimicks a highlighter and has six pre-defined colors. This c
 </focal-point>
 ```
 
-### RGBA Code
-```
-<focal-point color="rgba(100,100,200, 0.5)">
-    Nullam ac ultricies justo, a tempor est. Aenean efficitur accumsan porttitor.
-</focal-point>
-```
-
 ### HSL Code
 ```
 <focal-point color="hsl(120, 100%, 75%)">
