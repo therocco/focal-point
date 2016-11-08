@@ -5,7 +5,7 @@ The `<focal-point>` mimicks a highlighter and has six pre-defined colors. This c
 - `color` - `{string}` Valid CSS color code/hex/rgb/rgba/hsl/hsla value. Predefined values to mimick generic highlighters are `yellow`, `green`, `blue`, `orange`, `pink`, and `purple`.
 
 ### Color names
-```
+```html
 <focal-point color="yellow">
     Nullam ac ultricies justo, a tempor est. Aenean efficitur accumsan porttitor.
 </focal-point>
@@ -28,35 +28,35 @@ The `<focal-point>` mimicks a highlighter and has six pre-defined colors. This c
 ```
 
 ### Hex Code
-```
+```html
 <focal-point color="#ffcc67">
     Nullam ac ultricies justo, a tempor est. Aenean efficitur accumsan porttitor.
 </focal-point>
 ```
 
 ### RGB Code
-```
+```html
 <focal-point color="rgb(100,100,200)">
     Nullam ac ultricies justo, a tempor est. Aenean efficitur accumsan porttitor.
 </focal-point>
 ```
 
 ### RGBA Code
-```
+```html
 <focal-point color="rgba(100,100,200, 0.5)">
     Nullam ac ultricies justo, a tempor est. Aenean efficitur accumsan porttitor.
 </focal-point>
 ```
 
 ### HSL Code
-```
+```html
 <focal-point color="hsl(120, 100%, 75%)">
     Nullam ac ultricies justo, a tempor est. Aenean efficitur accumsan porttitor.
 </focal-point>
 ```
 
 ### HSLA Code
-```
+```html
 <focal-point color="hsla(120, 100%, 75%, 0.6)">
     Nullam ac ultricies justo, a tempor est. Aenean efficitur accumsan porttitor.
 </focal-point>
