@@ -61,3 +61,9 @@ The `<focal-point>` mimicks a highlighter and has six pre-defined colors. This c
     Nullam ac ultricies justo, a tempor est. Aenean efficitur accumsan porttitor.
 </focal-point>
 ```
+-----------
+#### Donate
+
+- **BTC:** 1NerV6wXVnUZceTp5KUgHiwJt1Pqk7TDRT
+- **ETH:** 0x98f7ff902157e1a3d1476e8fcfb843fdb3212b92
+- **LSK:** 4214091785427732085L
